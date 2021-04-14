@@ -55,7 +55,7 @@ nav ul li {
 /********************** HEADER **********************************/
 .header-wrapper {
   position: relative;
-  background: url(cover7.jpeg) no-repeat;
+  background: url(cover7.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   height: 90vh;
@@ -78,6 +78,9 @@ nav ul li {
 .main-info h1 {
   color: var(--specificRed);
   font-size: 50px;
+}
+.main-info h3 {
+  color: var(--white)
 }
 
 /*********************** TYPED-TEXT *************************/
