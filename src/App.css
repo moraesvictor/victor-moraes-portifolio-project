@@ -114,3 +114,59 @@ nav ul li {
   width: 100vw;
   z-index: 1;
 }
+
+/****************************** IntroAboutMe **************************/
+
+.intro-about-me {
+  background: url(cover7.jpg) no-repeat;
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.intro-about-me h1 {
+  margin-bottom: 2rem;
+  color: var(--specificRed) !important;
+}
+
+/*******************************  CONTACT BODY *****************************/
+.contact-body {
+  background: url(cover7.jpg) no-repeat;
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.contact-body h1 {
+  margin-bottom: 2rem;
+  color: var(--specificRed) !important;
+}
+
+/************************** PORTIFOLIO CARDS ************************************/
+
+.portifolio-cards {
+  flex-direction: row;
+  display: flex;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
