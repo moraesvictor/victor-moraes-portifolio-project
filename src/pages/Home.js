@@ -1,5 +1,6 @@
 import React from 'react'
 import Particles from 'react-particles-js';
+import Footer from '../components/footer';
 import Header from '../components/Header';
 import NavBar from '../components/NavBar';
 function Home() {
@@ -25,6 +26,7 @@ function Home() {
     />
     <NavBar />
     <Header />
+    <Footer />
     </>
   );
 }
